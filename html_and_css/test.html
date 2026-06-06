@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=""utf-8>
+        <meta name="description" content="this a html project for a course">
+        <meta name="author" content="Ahmed">
+        <meta name="keyword" content="html , simple html , css , nothing">
+        <title title="kh">test</title>
+    </head>
+    <body>
+        <div>
+         <h1 ><b><center>html course</center></b></h1>
+         <h2>sport news</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos recusandae ea quo in ulema? Enum defect's placeat dolores minus nulla dolore vel architecto. Nesciunt laboriosam dolors ipsum expedite destruct?</p>
+         <hr>
+         <h2 title="title">world news </h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ex dolores consectetur quaerat accusantium, nemo sed. Vero, commodi vel? Cupiditate unde quibusdam nisi in excepturi odio! Sed culpa dolour quisquam.
+         </p>
+        </div>
+        <hr>
+        <img src="test.jpg" alt="this is a img" title="wallpaper" width="200" id="ya">
+        <br>
+        <audio controls muted loop>
+            <source src="music.mp3" type="audio/mpeg">
+            <source src="music.ogg" type="audio/ogg">
+            <source src="music.wav" type="audio/wav">
+            your browser dose not support the audio element
+        </audio>
+        <br>
+        <video controls muted loop poster="test.jpg" preload="none" width="500" preload="none" preload="metadata">
+            <source src="video.mp4"type="video/mp4">
+            <source src="video.webm"type="video/webm">
+            <source src="video.ogg"type="video/ogg">
+            <track default src="ar.vtt" kind="subtitles" label="arabic">
+            <track src="en.vtt" kind="subtitles" label="english">
+            your browser dose not support the video element
+        </video>
+        <table border="1">
+            <caption> test</caption>
+            <thead>
+              <tr>
+                <th>name</th>
+                <th>age</th>
+                <th>country</th>
+              </tr>
+            </thead>
+            <tbody>
+             <tr>
+                <td>ahmed</td>
+                <td>16</td>
+                <td rowspan="2">50010</td>
+             </tr>
+             <tr>
+                <td>magdy</td>
+                <td>50</td>         
+             </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        total
+                    </td>
+                    <td colspan="2">
+                       70524 
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        <ul>
+            <li>ahmed</li>
+            <li>magdy</li>
+            <li>atalla</li>
+        </ul>
+        <ol>
+            <li>ahmed</li>
+            <li>magdy</li>
+            <li>atalla</li>
+        </ol>
+        <ol type="A">
+            <li>ahmed</li>
+            <li>magdy</li>
+            <li>atalla</li>
+        </ol>
+        <ol reversed>
+            <li>ahmed</li>
+            <li>magdy</li>
+            <li>atalla</li>
+        </ol>
+
+        <ol start="4">
+            <li>ahmed</li>
+            <li>magdy</li>
+            <li>atalla</li>
+        </ol>
+
+        <a href="#ya" target="_blank">test</a>
+        <a href="video.mp4">
+            <img src="test.jpg" alt="img" title="link" width="400">
+        </a>
+        <fieldset>
+            <legend>Login</legend>
+         <!-- <form novalidate> -->
+            <form>
+            <label for="txt">user name</label>
+            <input type="text" id="txt" placeholder="text" required maxlength="5" minlength="3">
+            <br>
+            <label for="pass">password</label>
+            <input type="password" id="pass" required>
+            <input type="submit" value="click">
+            <br>
+            <label for="color">color</label>
+            <input type="color" id="color">
+            <br>
+            <label for="file">file</label>
+            <input type="file" id="file">
+            <br>
+            <label for="range">range</label>
+            <input type="range" id="range" min="0" max="10" step="1">
+            <label for="range2">range2</label>
+            <input type="range" min="0" max="20" step="1" value="5" id="range2"> 
+            <br>
+            <label for="number">number</label>
+            <input type="number" min="0" max="20"id="number" step="2"> 
+            <br>
+            <label for="search">search</label>
+            <input type="search" id="search">
+            <br>
+            <label for="url">url</label>
+            <input type="url" id="url">
+            <br>
+            <label for="date">date</label>
+            <input type="date" id="date">
+            <label for="search">search</label>
+            <input type="search" id="search">
+            <br>
+            <label for="url">url</label>
+            <input type="url" id="url">
+            <br>
+            <label for="date">date</label>
+            <input type="date" id="date">
+            <br>
+            <h3>choices</h3>
+            <div>
+                <input type="radio" id="html" value="html" name="lang">
+                <label for="html">html</label>
+            </div>
+            <div>
+
+                <input type="radio" id="css" value="css" name="lang">
+                <label for="css">css</label>
+            </div>
+            <div>
+                <input type="radio" id="javascript" value="javascript" name="lang" checked>
+                <label for="javascript">javascript</label>
+            </div>
+            <br>
+            <h3>choices2</h3>
+            <div>
+                <input type="checkbox" id="html" value="html" name="lang">
+                <label for="html">html</label>
+            </div>
+            <div>
+
+                <input type="checkbox" id="css" value="css" name="lang" checked>
+                <label for="css">css</label>
+            </div>
+            <div>
+                <input type="checkbox" id="javascript" value="javascript" name="lang" checked>
+                <label for="javascript">javascript</label>
+            </div>
+             <div>
+                <label for="selection">what is your country</label>
+                <select id="selection">
+                 <optgroup label="africa">
+                    <option value="Egypt">Egypt</option>
+                    <option value="Morocco"selected>Morocco</option>
+                    <option value="Algeria">Algeria</option>
+                 </optgroup>
+                 <optgroup label="asea">
+                    <option value="Jordan">Jordan</option>
+                    <option value="Usa"selected>Usa</option>
+                    <option value="Uae">Uae</option>   
+                 </optgroup>
+                </select>
+             </div>
+             <style>
+                h1{
+                    color: rgba(255, 0, 0, 0.389);
+                }
+             </style>
+             <div>
+                <label for="select">what is your country name</label>
+                <select id="select" multiple>
+                    <option value="Egypt">Egypt</option>
+                    <option value="Morocco" selected>Morocco</option>
+                    <option value="Algeria">Algeria</option>
+                </select>
+             </div>
+
+
+             <br>
+             <hr>
+             <input list="countries" name="country" placeholder="countries">
+             <datalist id="countries">
+              <div>
+                <label for="select">what is your country name</label>
+                <select id="select" multiple>
+                    <option value="Egypt">
+                    <option value="Morocco" selected>
+                    <option value="Algeria">Algeria</option>
+                </select>
+              </div>
+             </datalist>
+             <input type="reset" value="clear">
+             <button type="submit">test</button>
+             <br>
+             <input type="text" placeholder="title" autofocus>
+             <input type="text" placeholder="title" readonly>
+             <input type="text" placeholder="title" disabled>
+             <br>
+             <hr>
+             <textarea name="content" placeholder="content...."  required ></textarea>
+             <iframe src="https://google.com/" frameborder="0"></iframe>
+             <br>
+             <hr>
+             <iframe src="https://google.com/" frameborder="1"></iframe>
+             <br>
+             <hr>
+             <iframe src="https://google.com/" frameborder="1" height="250" width="500"></iframe>
+             <object data="https://google.com/" type=""></object>
+             <embed src="https://google.com/" type="">
+                <br>
+                <hr>
+             <iframe src="test.jpg" frameborder="0" height="100" width="200" scrolling="no"></iframe>
+             <object data="test.jpg" type=""height="100" width="200"></object>
+             <embed src="test.jpg" type=""height="100" width="200">
+                <hr>
+             <iframe src="video.mp4" frameborder="0" height="100" width="200" scrolling="no"></iframe>
+             <object data="video.mp4" type=""height="100" width="200"></object>
+             <embed src="video.mp4" type=""height="100" width="200">
+                <hr>
+             <iframe src="music.mp3" frameborder="0" height="100" width="200" scrolling="no"></iframe>
+             <object data="music.mp3" type=""height="100" width="200"></object>
+             <embed src="music.mp3" type=""height="100" width="200">
+         </form>
+        </fieldset>
+        <a download href="test.jpg">download img</a>
+    </body>
+</html>
